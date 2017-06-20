@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jcstange.bletemplate.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/bluetooth_enable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:layout_marginStart="10dp"
+            android:text="BLUETOOTH ADAPTER IS DISABLED"/>
+        <Button
+            android:id="@+id/bluetooth_enable_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="ENABLE"
+            android:background="@color/siliconlabs_red"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/location_enable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:layout_marginStart="10dp"
+            android:text="LOCATION ADAPTER IS DISABLED"/>
+        <Button
+            android:id="@+id/location_enable_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="ENABLE"
+            android:background="@color/siliconlabs_red"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/scannedList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/siliconlabs_red"
+        android:dividerHeight="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"/>
+
+</LinearLayout>

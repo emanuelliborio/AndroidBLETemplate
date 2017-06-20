@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFD71F2A</color>
+    <color name="colorPrimaryDark">#FFA1171F</color>
+    <color name="colorAccent">#99FA434D</color>
+
+    <color name="siliconlabs_red">#FFD71F2A</color>
+    <color name="siliconlabs_dark_red">#FFA1171F</color>
+    <color name="light_text">#FF333333</color>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Silabs BLE Template</string>
+    <string name="flags">Flags</string>
+    <string name="number2">##</string>
+    <string name="rssi">-100 dBm</string>
+    <string name="address">##:##:##:##:##:##</string>
+    <string name="example_device">Example Device</string>
+    <string name="connection_interval">NA ms</string>
+    <string name="manuf_specific_data">Manuf. Specific Data</string>
+    <string name="tx_power">TX Power</string>
+    <string name="timestamp">Timestamp</string>
+    <string name="connect">CONNECT</string>
+    <string name="scan_record">Scan Record:</string>
+</resources>
